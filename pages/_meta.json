@@ -1,15 +1,14 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
+  "index": {
+    "title": "🏠 Home",
     "type": "page"
   },
-  "contact": {
-    "title": "Contact ↗",
-    "type": "page",
-    "href": "https://twitter.com/shuding_",
-    "newWindow": true
+  "wiki": {
+    "title": "📚 Wiki",
+    "type": "page"
+  },
+  "blog": {
+    "title": "📝 Blog (soon)",
+    "type": "page"
   }
 }
