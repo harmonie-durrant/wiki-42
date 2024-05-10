@@ -7,8 +7,8 @@
     "title": "📚 Wiki",
     "type": "page"
   },
-  "blog": {
-    "title": "📝 Blog (soon)",
+  "changelogs": {
+    "title": "📝 Changelogs",
     "type": "page"
   }
 }
