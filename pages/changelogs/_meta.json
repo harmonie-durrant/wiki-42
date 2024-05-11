@@ -3,6 +3,6 @@
   "changelog-template": {
     "display": "hidden"
   },
-  "v1": "❌ Version 1",
-  "v0": "🟡 Version 0"
+  "v0": "🟡 Version 0",
+  "v1": "❌ Version 1"
 }
