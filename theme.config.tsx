@@ -37,10 +37,10 @@ const config: DocsThemeConfig = {
     placeholder: "Search Wiki42"
   },
   banner: {
-    key: '0.0.1-release',
+    key: '0.0.2-release',
     text: (
-      <a href="/changelogs/v0/0.0.1" target="_blank">
-        🎉 Wiki42 version 0 is released! Read more →
+      <a href="/changelogs/v0/0.0.2" target="_blank">
+        🎉 Wiki42's first hotfix is live! Read more →
       </a>
     )
   }
