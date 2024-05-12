@@ -1,13 +1,13 @@
 import FlagCircleIcon from '@mui/icons-material/FlagCircle';
 import BusinessIcon from '@mui/icons-material/Business';
 import GroupIcon from '@mui/icons-material/Group';
-import WorkIcon from '@mui/icons-material/Work';
 import TipsAndUpdatesIcon from '@mui/icons-material/TipsAndUpdates';
 import AutoFixHighIcon from '@mui/icons-material/AutoFixHigh';
-import { Card, Cards } from 'nextra/components'
+import { Card, Cards } from 'nextra/components';
+import ReleaseTag from '../../components/ReleaseTag';
+import { constants } from '../../utils/constants';
 
-# 📚 Wiki
-<span class="badge badge-warning">BETA</span>
+# 📚 Wiki <ReleaseTag version_type={constants.version_type} />
 
 ## Introduction
 
@@ -29,11 +29,6 @@ This wiki is made by 42 students for 42 students, future and past along with the
     icon={<GroupIcon />}
     title="Student Life"
     href="/wiki/student-life"
-  />
-  <Card
-    icon={<WorkIcon />}
-    title="Projects"
-    href="/wiki/projects"
   />
   <Card
     icon={<TipsAndUpdatesIcon />}

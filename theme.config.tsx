@@ -4,7 +4,7 @@ import { useRouter } from 'next/router'
 import InstagramIcon from '@mui/icons-material/Instagram';
 
 const config: DocsThemeConfig = {
-  logo: <img src="wiki42.jpg" alt="Wiki42 Logo" width="50" height="50" />,
+  logo: <img src="/wiki42trans.png" alt="Wiki42 Logo" width="40" height="40" />,
   logoLink: '/',
   useNextSeoProps() {
     const { asPath } = useRouter()
@@ -37,10 +37,10 @@ const config: DocsThemeConfig = {
     placeholder: "Search Wiki42"
   },
   banner: {
-    key: '0.0.1-release',
+    key: '0.0.2-release',
     text: (
-      <a href="/changelogs/v0/0.0.1" target="_blank">
-        🎉 Wiki42 version 0 is released! Read more →
+      <a href="/changelogs/v0/0.0.2" target="_blank">
+        🎉 Wiki42's first hotfix is live! Read more →
       </a>
     )
   }

@@ -1,6 +1,8 @@
 import { Card, Cards } from 'nextra/components'
+import { constants } from '../utils/constants'
+import ReleaseTag from '../components/ReleaseTag'
 
-# ✨ Welcome to Wiki42 <span class="badge badge-lg badge-warning">BETA</span> <span class="badge badge-lg badge-info">v0.0.1</span>
+# ✨ Welcome to Wiki42 <ReleaseTag version_type={constants.version_type} version_number={constants.version} />
 
 Wiki42 is a comprehensive bank of information for the 42school network. Here, you'll find a wealth of knowledge on various topics related to programming, software development, and school life.
 
@@ -18,7 +20,7 @@ To get started, you can browse through the different categories and subcategorie
 
 ## About 42
 
-42 is a private, nonprofit and tuition-free computer programming school created and funded by French billionaire Xavier Niel (founder of the telecommunication company Iliad) with several partners [...] The school was first opened in Paris in 2013.
+42 is a private, nonprofit and tuition-free computer programming school created and funded by French billionaire Xavier Niel (former executive director at [Epitech](https://en.wikipedia.org/wiki/Epitech)) with several partners [...] The school was first opened in Paris in 2013.
 
 The school is a non-profit organization and is entirely free, being funded by billionaire Xavier Niel with hundreds of millions of dollars. All the intellectual property belongs to the students.
 
