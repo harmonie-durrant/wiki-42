@@ -35,14 +35,6 @@ const config: DocsThemeConfig = {
   ),
   search: {
     placeholder: "Search Wiki42"
-  },
-  banner: {
-    key: '0.0.2-release',
-    text: (
-      <a href="/changelogs/v0/0.0.2" target="_blank">
-        🎉 Wiki42's first hotfix is live! Read more →
-      </a>
-    )
   }
 }
 
