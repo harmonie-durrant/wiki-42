@@ -31,6 +31,7 @@ const config: DocsThemeConfig = {
   head: (
     <>
       <link rel="icon" type="image/x-icon" href="/favicon.ico"></link>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     </>
   ),
   search: {
