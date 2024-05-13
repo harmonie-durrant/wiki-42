@@ -1,0 +1,49 @@
+# ✨ Welcome to Wiki42
+
+Wiki42 is a comprehensive bank of information for the 42school network. Here, you'll find a wealth of knowledge on various topics related to programming, software development, and school life.
+
+## Getting Started
+
+To get started, you can browse through the different categories and subcategories to find the information you're looking for. Whether you're a student or not, Wiki42 has something for everyone.
+
+<br />
+<a href="https://wiki42.harmoniedurrant.com/wiki">
+    Get Started
+</a>
+
+## About 42
+
+42 is a private, nonprofit and tuition-free computer programming school created and funded by French billionaire Xavier Niel (former executive director at [Epitech](https://en.wikipedia.org/wiki/Epitech)) with several partners [...] The school was first opened in Paris in 2013.
+
+The school is a non-profit organization and is entirely free, being funded by billionaire Xavier Niel with hundreds of millions of dollars. All the intellectual property belongs to the students.
+
+42's name is a reference to the science fiction book The Hitchhiker's Guide to the Galaxy written by British author Douglas Adams: in the book 42 is the Answer to the Ultimate Question of Life, the Universe, and Everything.
+
+Source: [Wikipedia](https://en.wikipedia.org/wiki/42_(school))
+
+## Contributing
+
+Wiki42 is a community-driven platform, and we encourage everyone to contribute to its growth. If you have knowledge to share or want to improve existing content, you can contribute by creating new articles, editing existing ones, or suggesting improvements.
+
+To contribute, simply fork the Wiki42 repository on GitHub, make your changes, and submit a pull request. Our team will review your contribution and merge it if it meets our guidelines.
+
+## Donating
+
+Wiki42 is a passion project created by myself. I dedicate my time and effort to maintain and improve the platform for the benefit of the community. If you find Wiki42 helpful and would like to support my work, you can make a donation via Buy Me a Coffee.
+
+Your donations will help cover the costs of hosting, domain registration, and other expenses associated with running the platform. We appreciate your support and thank you for contributing to the growth of Wiki42.
+
+<br />
+
+<a href="https://www.buymeacoffee.com/harmonie">
+    Buy Me a Coffee
+</a>
+
+## Contact Us
+
+If you have any questions, suggestions, or feedback, feel free to reach out to us. You can contact us through the following channels:
+
+- Email: [harmoniedurrant@gmail.com](mailto:harmoniedurrant@gmail.com)
+- Instagram: [@42.wiki](https://www.instagram.com/42.wiki/)
+
+We hope you find Wiki42 to be a valuable resource in your learning journey. Happy exploring!
