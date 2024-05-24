@@ -1,7 +1,4 @@
-import { constants } from '../utils/constants'
-import ReleaseTag from '../components/ReleaseTag'
-
-# ✨ Welcome to Wiki42 <ReleaseTag version_type={constants.version_type} version_number={constants.version} />
+# ✨ Welcome to Wiki42
 
 Wiki42 is a comprehensive bank of information for the 42school network. Here, you'll find a wealth of knowledge on various topics related to programming, software development, and school life.
 
@@ -10,12 +7,9 @@ Wiki42 is a comprehensive bank of information for the 42school network. Here, yo
 To get started, you can browse through the different categories and subcategories to find the information you're looking for. Whether you're a student or not, Wiki42 has something for everyone.
 
 <br />
-<a href="/wiki">
-  <button className="btn px-8">
-      Get Started
-  </button>
+<a href="https://wiki42.harmoniedurrant.com/wiki">
+    Get Started
 </a>
-<br />
 
 ## About 42
 
@@ -42,9 +36,7 @@ Your donations will help cover the costs of hosting, domain registration, and ot
 <br />
 
 <a href="https://www.buymeacoffee.com/harmonie">
-  <button className="btn px-8">
-      Buy Me a Coffee
-  </button>
+    Buy Me a Coffee
 </a>
 
 ## Contact Us

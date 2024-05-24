@@ -1,6 +1,6 @@
 {
   "name": "wiki42",
-  "version": "0.3",
+  "version": "0.4",
   "description": "wiki42 a bunch of ressources for 42 students and their ",
   "scripts": {
     "dev": "next dev",
