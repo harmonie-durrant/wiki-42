@@ -18,13 +18,13 @@ const config: DocsThemeConfig = {
     }
   },
   project: {
-    link: 'https://github.com/harmonie-durrant/',
+    link: 'https://github.com/harmonie-durrant/wiki-42',
   },
   chat: {
     link: 'https://instagram.com/42.wiki',
     icon: (<InstagramIcon />)
   },
-  docsRepositoryBase: 'https://github.com/harmonie-durrant/wiki-42/',
+  docsRepositoryBase: 'https://github.com/harmonie-durrant/wiki-42/tree/main',
   footer: {
     text: 'Wiki42 giving you info about 42 since 2024',
   },
