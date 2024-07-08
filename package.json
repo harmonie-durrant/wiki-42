@@ -1,6 +1,6 @@
 {
   "name": "wiki42",
-  "version": "0.4",
+  "version": "0.5",
   "description": "wiki42 a bunch of ressources for 42 students and their ",
   "scripts": {
     "dev": "next dev",
@@ -27,7 +27,8 @@
     "nextra": "latest",
     "nextra-theme-docs": "latest",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "sharp": "^0.33.4"
   },
   "devDependencies": {
     "@types/node": "18.11.10",
