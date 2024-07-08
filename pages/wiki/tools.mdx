@@ -1,4 +1,5 @@
 import { Card, Cards } from 'nextra/components'
+import WikiTable from '../../components/WikiTable'
 
 # 🛠️ Tools
 
@@ -35,9 +36,10 @@ This page contains a list of tools that are useful for 42 students. If you have 
 
 Grademe is a tool that simulates the 42 Exam environment. It allows you to practice your exam skills and get instant feedback on your performance.
 
-```bash
-bash -c "$(curl https://grademe.fr)"
-```
+
+<div className="mockup-code mt-4">
+    <code><pre data-prefix="$">bash -c "$(curl https://grademe.fr)"</pre></code>
+</div>
 
 ### [XP Calculator](https://42.tbailleu.dev/) [#xp-calculator]
 
@@ -46,26 +48,85 @@ The XP Calculator is a tool that helps you calculate the number of xp you will n
 ## Tools -  VScode [#tools-vscode]
 Extensions for VS Code for enhancing your development experience.
 
-| Name | Description | Links |
-| :------------ | :---------: | ----------: |
-| [42 C-Format](https://marketplace.visualstudio.com/items?itemName=keyhr.42-c-format)                                           | Automaticly formats .c files with norm v3. | `Website` |
-| [42 ft count line](https://marketplace.visualstudio.com/items?itemName=DoKca.42-ft-count-line)                                 | Displays how many lines each function as.  | `Website` |
-| [42 Header](https://marketplace.visualstudio.com/items?itemName=kube.42header)                                                 | 42 header integration in VS Code.          | `Website` |
+<WikiTable
+  col_names={["name", "Description", "Links"]}
+  data={[
+    [
+      "42 C-Format",
+      "Automaticly formats .c files with norm v3.",
+      (<a href="https://marketplace.visualstudio.com/items?itemName=keyhr.42-c-format">
+        Website
+      </a>)
+    ],
+    [
+      "42 ft count line",
+      "Displays how many lines each function has.",
+      (<a href="https://marketplace.visualstudio.com/items?itemName=DoKca.42-ft-count-line">
+        Website
+      </a>)
+    ],
+    [
+      "42 Header",
+      (<>
+        42 header integration in VS Code with hotkey <kbd class="kbd kbd-sm">Alt</kbd> + <kbd class="kbd kbd-sm">H</kbd>.
+      </>),
+      (<a href="https://marketplace.visualstudio.com/items?itemName=kube.42header">
+        Website
+      </a>)]
+  ]}
+/>
+
 
 ## Tools - Browser [#tools-browser]
 
 Extensions for chrome and firefor for enhancing the [intranet](/wiki/intranet) experience.
 
-| Name | Description | Links |
-| :------------ | :---------: | ----------: |
-| [Improved Intra 42](https://github.com/FreekBes/improved_intra) | Browser extension for Chrome and Firefox to enhance the Intra 42 experience.   | `GitHub` |
-| [Better Black Hole](https://github.com/jkctech/BetterBlackHole) | Extension available for Chrome and Firefox. Improves Black Hole functionality. | `GitHub` |
+<WikiTable
+  col_names={["name", "Description", "Links"]}
+  data={[
+    [
+      "Improved Intra 42",
+      "Browser extension for Chrome and Firefox to enhance the Intra 42 experience.",
+      (<a href="https://github.com/FreekBes/improved_intra">
+        Website
+      </a>)
+    ],
+    [
+      "Better Black Hole",
+      "Extension available for Chrome and Firefox. Improves Black Hole functionality.",
+      (<a href="https://github.com/jkctech/BetterBlackHole">
+        Website
+      </a>)
+    ],
+  ]}
+/>
 
 ## Tools - README.md [#tools-readme]
 Insights on crafting effective README files and integrating badges for your projects.
 
-| Name | Description | Links |
-| :------------ | :---------: | ----------: |
-| [README.md Generator](https://profile-readme-generator.com)                  | Create your GitHub README.md simply and quickly.          | `Website` |
-| [42 Project Badges](https://github.com/vinicius-f-pereira/42-project-badges) | Badges designed for 42 curriculum projects.               | `GitHub`  |
-| [42 Unlicense](https://github.com/gcamerli/42unlicense)                      | Flavoured version, based on the Unlicense public license. | `GitHub`  |
+<WikiTable
+  col_names={["name", "Description", "Links"]}
+  data={[
+    [
+      "README.md Generator",
+      "Create your GitHub README.md simply and quickly.",
+      (<a href="https://profile-readme-generator.com">
+        Website
+      </a>)
+    ],
+    [
+      "42 Project Badges",
+      "Badges designed for 42 curriculum projects.",
+      (<a href="https://github.com/vinicius-f-pereira/42-project-badges">
+        Website
+      </a>)
+    ],
+    [
+      "42 Unlicense",
+      "Flavoured version, based on the Unlicense public license.",
+      (<a href="https://github.com/gcamerli/42unlicense">
+        Website
+      </a>)
+    ]
+  ]}
+/>

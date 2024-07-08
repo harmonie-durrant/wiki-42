@@ -1,4 +1,4 @@
 export const constants = {
-    "version": "0.4",
-    "version_type": "BETA"
+    "version": "0.5",
+    "version_type": "RELEASE"
 };

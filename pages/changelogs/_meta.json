@@ -1,9 +1,5 @@
 {
   "index": "📝 Changelogs",
-  "roadmap": "🗺️ Roadmap",
   "v0": "🟡 Version 0",
-  "v1": "❌ Version 1",
-  "changelog-template": {
-    "display": "hidden"
-  }
+  "v1": "❌ Version 1"
 }

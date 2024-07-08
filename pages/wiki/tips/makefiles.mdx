@@ -1,0 +1,126 @@
+# 📦 Makefiles
+
+## Introduction
+
+A Makefile is a file, read by the `Make` program, which executes all the commands and rules in the Makefile.
+
+At 42, you will use Makefiles to compile your projects. Here are some tips to help you write better Makefiles.
+
+## Generic Makefile
+
+A simple Makefile is composed of your project source files (the .c files) and some rules to make your Make command work.
+
+You have to list your source files like this:
+
+```make
+SRCS = main.c \
+       utils.c \
+       ...
+```
+
+After that, you can use them to build your objects. It will take all .c files in $(SRC) and compile them into .o files.
+
+```make
+OBJS = $(SRCS:.c=.o)
+```
+
+Then, you can compile your objects into a binary file.
+note: the rule "all" is used to tell the make program what rule is used by default.
+
+```make
+NAME = my_program
+
+$(NAME): $(OBJS)
+    gcc $(OBJS) -o $(NAME)
+
+all:     $(NAME)
+```
+
+Finally, you can add some rules to clean your project.
+
+```make
+clean:
+    rm -f $(OBJS)
+
+fclean: clean
+    rm -f $(NAME)
+```
+
+optionally, you can add a rule to recompile your project. This will remove the .o files and the binary and recompile them.
+
+```make
+re: fclean $(NAME)
+```
+
+Comments in a Makefile are written with a `#` symbol.
+
+```make
+# This is a comment and will not be run by the Make program
+echo "This line will be run by the Make program"
+```
+
+Here is the full Makefile:
+
+```make
+NAME = my_program
+
+SRCS = main.c \
+       utils.c
+
+OBJS = $(SRCS:.c=.o)
+
+$(NAME): $(OBJS)
+    gcc $(OBJS) -o $(NAME)
+
+clean:
+    rm -f $(OBJS)
+
+fclean: clean
+    rm -f $(NAME)
+
+re: fclean $(NAME)
+
+all:     $(NAME)
+```
+
+## Advanced Makefile
+
+If you want to go further, you can add some flags to your Makefile. In the following example, we make some variables for the compiler and the flags.
+
+```make
+CC = gcc
+CFLAGS = -Wall -Wextra -Werror
+```
+
+You can also add some rules to compile your objects with the flags.
+
+```make
+$(NAME): $(OBJS)
+    $(CC) $(CFLAGS) $(OBJS) -o $(NAME)
+```
+
+Here is the full Makefile:
+
+```make
+NAME = my_program
+
+CC = gcc
+CFLAGS = -Wall -Wextra -Werror
+
+SRCS = main.c \
+       utils.c
+
+OBJS = $(SRCS:.c=.o)
+
+$(NAME): $(OBJS)
+    $(CC) $(CFLAGS) $(OBJS) -o $(NAME)
+
+clean:
+    rm -f $(OBJS)
+
+fclean: clean
+
+re: fclean $(NAME)
+
+all:     $(NAME)
+```
