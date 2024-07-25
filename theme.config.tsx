@@ -15,7 +15,7 @@ const config: DocsThemeConfig = {
       }
     }
     return {
-      titleTemplate: 'Wiki42 - A Wiki for 42 School and its students by Harmonie',
+      titleTemplate: 'Wiki42 - A Wiki for 42 students',
     }
   },
   project: {
@@ -34,7 +34,6 @@ const config: DocsThemeConfig = {
     return (
       <>
         <link rel="icon" type="image/x-icon" href="/favicon.ico"></link>
-        <link rel="alternate" href="http://wiki42.harmoniedurrant.com" hrefLang="en" />
         <meta
             property="og:description"
             content={frontMatter.description || 'The next site builder'}
